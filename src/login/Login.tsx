@@ -8,9 +8,9 @@ function Login(){
             <div className="container-fluid background p-5">
                 <div className='row'>
                     <div className='col-lg-6 col-sm-12 d-flex justify-content-center mt-5'>
-                        <div className='col-lg-5 col-sm-12'>
+                        <div className='col-lg-6 col-sm-12'>
                             <img className="fbLogo " src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook" />
-                            <p>Connect with friends and the world around you on Facebook</p>
+                            <p className='mt-2 fw-bold'>Facebook helps you connect and share with people in your life.</p>
                         </div>
                     </div>
                     <div className='col-4 me-5 ms-5 border d-flex justify-content-center bg-white rounded-3'>
@@ -24,7 +24,6 @@ function Login(){
                         </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
