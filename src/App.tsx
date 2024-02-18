@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
+import Login from './login/Login'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div></div>
+    <div>
+      <Login/>
+    </div>
   )
 }
 
